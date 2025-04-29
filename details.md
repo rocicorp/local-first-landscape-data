@@ -1,15 +1,13 @@
-# SuperSync
+# Zero
 
-SuperSync is a cool way to sync your data.
+Zero is a general-purpose sync engine for the web.
 
-## Features
+You put Zero in front of your database or web service, and we distribute your backend all the way to main thread of the UI. You get a client-side API that _looks_ like an embedded db, but to which you can issue arbitrary _hybrid queries_ that span the entire database, including the server.
 
-- **SuperSync**: Sync your data with ease.
-- **Local-first**: Your data is stored locally, ensuring privacy and security.
-- **Cross-platform**: Works on all major platforms.
-- **Open-source**: The code is available for anyone to use and contribute to.
-- **Community-driven**: Join our community and help us improve the project.
+![code sample](./code.png)
+
+Behind the scenes, we synchronize queries results continuously to a client-side persistent cache. This cache is used automatically for future queries whenever possible.
 
 ## More info
 
-...
+To learn more, see [zerosync.dev](https://zerosync.dev/).

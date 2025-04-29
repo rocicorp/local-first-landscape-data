@@ -6,7 +6,7 @@ export const data = LandscapeSchema.make({
   Id: "zero",
   Name: "Zero",
   Description: "General-Purpose Sync",
-  License: "FSL-Apach 2.0",
+  License: "Apache-2.0",
   Logo: {
     Dark: "logo.dark.svg",
     Light: "logo.light.svg",

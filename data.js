@@ -144,7 +144,7 @@ export const data = LandscapeSchema.make({
     ConflictHandling: {
       data: "Automatic via Server Reconciliation",
       comment:
-        "See https://rocicorp.dev/blog/ready-player-two for more information about server reconciliation",
+        "See https://zero.rocicorp.dev/docs/custom-mutators for more information",
     },
     WhereResolutionOccurs: {
       data: "Client and Server",
